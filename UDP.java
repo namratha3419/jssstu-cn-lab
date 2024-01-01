@@ -24,7 +24,9 @@ serverSocket.send(sendPacket);
 e.printStackTrace(); 
 }finally{ 
 serverSocket.close(); 
-
+}
+}
+}
   
 //client program
 import java.io.*; 
